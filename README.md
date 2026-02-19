@@ -25,25 +25,25 @@ OR clone the repository using:
 
 ```bash
 git clone <your-repository-url>
-
+```
 ### Step 2: Open Project Root Directory
 
 Open terminal and go to the project root folder (where package.json is located):
 ```bash
 cd <project-folder-name>
-
+```
 ### Step 3: Install Node Modules
 
 Run the following command to install node modules:
 ```bash
 npm install
-
+```
 ### Step 4: Create Production Build
 
 To generate a build, run this command from the root directory:
 ```bash
 npm run build
-
+```
 
 This will create a production-ready build folder.
 
@@ -52,7 +52,7 @@ This will create a production-ready build folder.
 If you want to run the project locally:
 ```bash
 npm start
-
+```
 
 The app will run at:
 http://localhost:3000
